@@ -34,7 +34,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 children: [
                   const ListTile(
                     title: Text(
-                      'Organizagro é um aplicativo desenvolvido pelo estudante Luidson Lima Santos como projeto para a disciplina Atividade Extensionista II do curso de Análise e Desenvolvimento de Sistemas da Universidade Uninter.',
+                      'Organizagro é um aplicativo desenvolvido pelo estudante Luidson Lima Santos como projeto para a disciplina Atividade Extensionista II do curso de Análise e Desenvolvimento de Sistemas do Centro Universitário Uninter.',
                     ),
                   ),
                   const ListTile(

@@ -15,7 +15,7 @@ class CategoryList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (categoryList.isEmpty) {
-      return const Center(child: Text('Sem Categorias cadastradas'));
+      return const Center(child: Text('Sem categorias cadastradas'));
     } else {
       return ListView.builder(
         itemBuilder: (_, i) => CategoryCard(

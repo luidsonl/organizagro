@@ -37,18 +37,6 @@ class DatabaseInitializer {
             FOREIGN KEY (category_id) REFERENCES item_categories(id) ON DELETE CASCADE
           )
         ''');
-        await db.rawInsert('''
-          INSERT INTO item_categories (icon, unit_of_measure, name)
-          VALUES ('inventário', 'Sacos', 'Silagem')
-        ''');
-        await db.rawInsert('''
-          INSERT INTO item_categories (icon, unit_of_measure, name)
-          VALUES ('engrenagem', 'Metros', 'Arame')
-        ''');
-        await db.rawInsert('''
-          INSERT INTO item_categories (icon, unit_of_measure, name)
-          VALUES ('estoque', 'Quilos', 'Milho')
-        ''');
       },
     );
   }

@@ -101,10 +101,10 @@ class _TransactionFormState extends State<TransactionForm> {
                       RegExp(r'^\d+([\.,]\d{0,2})?')),
                 ],
                 controller: _amount,
-                decoration: const InputDecoration(labelText: 'Quantidade'),
+                decoration: const InputDecoration(labelText: 'Valor'),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Por favor, insira a quantidade';
+                    return 'Por favor, insira o valor';
                   }
                   return null;
                 },

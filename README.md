@@ -3,8 +3,8 @@
 Organizagro é um aplicativo desenvolvido pelo 
 estudante Luidson Lima Santos como projeto para a 
 disciplina Atividade Extensionista II do curso de 
-Análise e Desenvolvimento de Sistemas da 
-Universidade Uninter.
+Análise e Desenvolvimento de Sistemas do Centro 
+Universitário Uninter.
 
 O objetivo deste app é ser uma ferramenta intuitiva 
 e funcional que auxilia pequenos agricultores a se 
